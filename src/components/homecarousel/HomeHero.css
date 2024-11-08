@@ -1,0 +1,42 @@
+/* src/components/HomeHero.css */
+.home-hero {
+  background: linear-gradient(135deg, #cce7ff, #ffffff); /* Light Blue to White Gradient */
+  padding: 150px 0;
+  color: #333; /* Dark gray text for better contrast */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow for readability */
+  position: relative;
+  text-align: center;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3); /* Subtle dark overlay for text readability */
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #003366; /* Dark blue text for contrast */
+}
+
+.hero-description {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+  color: #333; /* Dark gray text */
+}
+
+.hero-btn {
+  padding: 12px 30px;
+  background-color: #007bff; /* Blue button */
+  border-color: #007bff;
+  font-size: 1.25rem;
+  border-radius: 30px;
+}
+
+.hero-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
