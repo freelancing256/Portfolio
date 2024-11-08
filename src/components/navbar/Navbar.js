@@ -2,7 +2,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./NavigationBar.css"; // External CSS for styling
-
+import { repository } from "../../data/servicesData";
 const NavigationBar = () => {
   const location = useLocation(); // Hook to get the current location for active link highlighting
 
@@ -10,7 +10,7 @@ const NavigationBar = () => {
     <div className="navbar">
       <div className="logo-container">
         {/* Logo Image */}
-        <img src="/logo.png" alt="Vapour Harvest Logo" className="logo-img" />
+        <img src={repository+"/logo.png"} alt="Vapour Harvest Logo" className="logo-img" />
         
         {/* Company Name */}
         <div className="company-name">Vapour Harvest Technology Solutions</div>

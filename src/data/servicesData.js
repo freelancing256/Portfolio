@@ -1,4 +1,4 @@
-
+export const repository="/Portfolio";
 const services = [
     {
         ServiceName: "Power Platform Services",
@@ -10,27 +10,27 @@ const services = [
                     
                     Title: "Power Apps",
                     Description: "We help you build custom apps tailored to your needs, enhancing productivity and streamlining workflows with no-code and low-code solutions",
-                    ImageUrl: "/images/powerapps.png",
+                    ImageUrl: repository+"/images/powerapps.png",
                     LinkUrl: ""
                 },
                 {
                    
                     Title: "Power BI",
                     Description: "Unlock the full potential of your data with Power BI. We help you create interactive dashboards, insightful reports, and data-driven decisions, transforming raw data into valuable business intelligence.",
-                    ImageUrl: "/images/powerbi.png",
+                    ImageUrl: repository+"/images/powerbi.png",
                     LinkUrl: ""
                 }, {
                     
                     Title: "Power Automate",
                     Description: "We help automate repetitive tasks, integrate systems, and enhance productivity by creating workflows that save time and reduce errors across your organization.",
-                    ImageUrl: "/images/powerautomate.png",
+                    ImageUrl: repository+"/images/powerautomate.png",
                     LinkUrl: ""
                 },
                 {
                     
                     Title: "Power Virtual Agent",
                     Description: "We create intelligent chatbots that automate customer support, answer queries, and provide 24/7 assistance, improving engagement and reducing response times.",
-                    ImageUrl: "/images/PowerVirtualAgents.png",
+                    ImageUrl: repository+"/images/powervirtualagents.png",
                     LinkUrl: ""
                 }
             ]
@@ -44,18 +44,18 @@ const services = [
                 {
                     Title: ".Net Core",
                     Description: "Unlock the power of .NET Core to build fast, scalable, and cross-platform web applications. Our expert developers create high-performance web apps tailored to meet your business needs.",
-                    ImageUrl: "/images/dotnet.png",
+                    ImageUrl: repository+"/images/dotnet.png",
                     LinkUrl: ""
                 },
                 {
                     Title: "Phython",
                     Description: "Leverage the versatility and efficiency of Python to create dynamic, data-driven, and scalable web applications. Our skilled developers specialize in building high-performance web solutions using frameworks like Django, Flask, and FastAPI.",
-                    ImageUrl: "/images/digango.png",
+                    ImageUrl: repository+"/images/digango.png",
                     LinkUrl: ""
                 }, {
                     Title: "Php",
                     Description: "Harness the power of PHP to build dynamic, scalable, and secure web applications. Our expert developers specialize in creating custom web solutions using PHP frameworks like Laravel, Symfony, and CodeIgniter.",
-                    ImageUrl: "/images/larvel.png",
+                    ImageUrl: repository+"/images/larvel.png",
                     LinkUrl: ""
                 }
             ]
@@ -68,13 +68,13 @@ const services = [
                 {
                     Title: "SharePoint Framework apps",
                     Description: "We specialize in SharePoint Framework (SPFx) application development, delivering modern, scalable, and responsive solutions that integrate seamlessly with your SharePoint environment. Our team leverages SPFx to build custom web parts, extensions, and applications that enhance user experience, improve functionality, and drive business productivity. Using the latest technologies like React, TypeScript, JavaScript, and REST APIs, we create dynamic and interactive solutions that work across SharePoint Online and SharePoint On-Premises.",
-                    ImageUrl: "/images/sharepointframework.png",
+                    ImageUrl: repository+"/images/sharepointframework.png",
                     LinkUrl: ""
                 },
                 {
                     Title: "SharePoint Data Migration",
                     Description: "Our company offers seamless SharePoint migration services to help you transition your content, data, and applications to a modern SharePoint environment with minimal disruption. We leverage industry-leading tools such as AvePoint, ShareGate, and Metalogix to ensure a smooth and efficient migration process. Whether you’re migrating from SharePoint 2013, 2016, or 2019 to SharePoint Online, or consolidating data from different environments, our experts manage the entire migration lifecycle—from planning and assessment to execution and post-migration support",
-                    ImageUrl: "/images/sharepointmigration.png",
+                    ImageUrl: repository+"/images/sharepointmigration.png",
                     LinkUrl: ""
                 }
             ]
@@ -87,13 +87,13 @@ const services = [
                 {
                     Title: "K2  Workflows",
                     Description: "We provide expert K2 Workflow development services to automate and streamline your business processes with ease. K2 workflows enable organizations to design, deploy, and manage complex workflows with minimal coding, making it easier to automate tasks, approvals, and decision-making across departments.",
-                    ImageUrl: "/images/K2Workflow.png",
+                    ImageUrl: repository+"/images/k2workflow.png",
                     LinkUrl: ""
                 },
                 {
                     Title: "K2 Forms",
                     Description: "We offer comprehensive K2 Forms development services to help you create dynamic, user-friendly, and powerful forms that streamline data collection and improve business processes. K2 Forms enable organizations to design and deploy custom forms that integrate seamlessly with workflows, automating tasks and approvals.",
-                    ImageUrl: "/images/K2Forms.jpg",
+                    ImageUrl: repository+"/images/k2forms.jpg",
                     LinkUrl: ""
                 }
             ]
@@ -106,19 +106,19 @@ const services = [
                 {
                     Title: "Azure App Services",
                     Description: "we offer Azure App Services to help businesses build, deploy, and scale web applications, mobile backends, and APIs quickly and securely. Azure App Services is a fully managed platform that takes care of the infrastructure, allowing you to focus on developing your applications while Azure handles scaling, security, and high availability.",
-                    ImageUrl: "/images/AppService.png",
+                    ImageUrl: repository+"/images/appservice.png",
                     LinkUrl: ""
                 },
                 {
                     Title: "Azure Integration Services",
                     Description: "we offer Azure Integration Services to help businesses seamlessly connect, manage, and integrate their applications, data, and systems across cloud and on-premises environments. Whether you’re integrating applications, automating workflows, or securely exchanging data, Azure provides a powerful suite of tools to ensure your business processes are streamlined, scalable, and future-proof.",
-                    ImageUrl: "/images/integrationServices.png",
+                    ImageUrl: repository+"/images/integrationservices.png",
                     LinkUrl: ""
                 },
                 {
                     Title: "azure storage services",
                     Description: "we offer Azure Storage solutions to provide businesses with highly available, scalable, and secure cloud storage options for a variety of use cases. Whether you're storing structured, semi-structured, or unstructured data, Azure Storage services are designed to meet your needs for performance, scalability, and reliability while maintaining cost-effectiveness.",
-                    ImageUrl: "/images/StorageService.png",
+                    ImageUrl: repository+"/images/storageservice.png",
                     LinkUrl: ""
                 }
             ]
@@ -131,13 +131,13 @@ const services = [
                 {
                     Title: "Infrastructure Provisioning",
                     Description: "we specialize in automating Infrastructure as Code (IaC) using Terraform, a powerful open-source tool that enables you to define, provision, and manage your infrastructure in a consistent and automated way. With Terraform, we help organizations deploy and manage infrastructure across various cloud providers (including AWS, Azure, Google Cloud, and more) while ensuring best practices in scalability, security, and cost-efficiency.",
-                    ImageUrl: "/images/DevopsInfra.png",
+                    ImageUrl: repository+"/images/devopsinfra.png",
                     LinkUrl: ""
                 },
                 {
                     Title: "Application Deployment",
                     Description: "we specialize in optimizing and automating the application deployment process through DevOps Pipelines. Leveraging continuous integration and continuous delivery (CI/CD) practices, we help you deploy applications faster, more reliably, and with fewer errors, ensuring high-quality releases with minimal downtime.",
-                    ImageUrl: "/images/devopsDeployment.jpg",
+                    ImageUrl: repository+"/images/devopsdeployment.jpg",
                     LinkUrl: ""
                 }
             ]
